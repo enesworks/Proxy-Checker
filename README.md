@@ -52,4 +52,3 @@ IP:PORT
 The app checks that the test service returns HTTP 200 with a valid IP response. The output file contains only `ip:port` lines; the app detects the proxy type again when it reads those lines later. A proxy can go offline or behave differently with other sites, so results describe the time and target used for that scan.
 
 Do not commit personal proxy lists or generated result files to the repository.
-
